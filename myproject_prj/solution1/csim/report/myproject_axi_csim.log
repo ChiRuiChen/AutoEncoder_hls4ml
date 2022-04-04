@@ -1,0 +1,1278 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../myproject_test.cpp in debug mode
+   Compiling ../../../../firmware/myproject.cpp in debug mode
+   Compiling ../../../../firmware/myproject_axi.cpp in debug mode
+   Generating csim.exe
+Processing input 0
+test
+test
+test
+Predictions
+0 4.558e-41 7.13435e-19 4.558e-41 1.64397e-38 0 1.13505e-43 0 1.65473e-38 0 7.13357e-19 4.558e-41 4.59185e-39 0 1.654e-38 0 1.65392e-38 0 1.65459e-38 0 1.65392e-38 0 1.65459e-38 0 1.12104e-43 0 2.25609e-43 0 1.65143e-38 0 1.6516e-38 0 0 0 0 0 1.63363e-41 2.77471e-41 9.31303e-42 3.02975e-41 1.65429e-38 0 1.65437e-38 0 1.65444e-38 0 1.65459e-38 0 1.65143e-38 0 1.64415e-38 0 1.64422e-38 0 1.64432e-38 0 1.64537e-38 0 1.07003e-41 1.93842e-41 2.25707e-41 1.82099e-41 0 2.31845e-41 2.24208e-43 0 1.12104e-43 0 1.64402e-38 0 1.6516e-38 0 2.75888e-41 1.10142e-42 1.65392e-38 0 5.32493e-42 2.92101e-41 0 1.66867e-41 2.59226e-41 0 9.49099e-42 2.05921e-41 1.93183e-41 2.4768e-41 1.13505e-43 0 1.65436e-38 0 7.13354e-19 4.558e-41 1.65676e-41 2.21489e-41 1.65414e-38 0 1.65422e-38 0 1.65429e-38 0 1.56315e-41 2.738e-41 0 2.00414e-41 2.24698e-41 0 1.13505e-43 0 1.64404e-38 0 7.13363e-19 4.558e-41 2.43181e-41 5.53933e-42 1.64558e-38 0 1.65438e-38 0 1.64551e-38 0 2.56886e-41 9.79227e-42 3.32528e-42 0 2.70451e-42 5.78988e-41 1.13505e-43 0 1.64406e-38 0 7.13359e-19 4.558e-41 1.96308e-41 1.59496e-41 1.65414e-38 0 1.64558e-38 0 1.65438e-38 0 1.29844e-41 2.99738e-41 0 2.08892e-41 2.81227e-41 5.32493e-43 6.86636e-44 0 7.13355e-19 4.558e-41 7.13355e-19 4.558e-41 2.65812e-41 0 1.08376e-41 1.70888e-41 6.72623e-44 0 1.12104e-43 0 1.65347e-38 0 7.13354e-19 4.558e-41 0 0 1.64408e-38 0 1.64617e-38 0 1.64625e-38 0 1.64632e-38 0 1.6464e-38 0 0.369442 0.589386 1.48117e-42 0 1.65475e-38 0 1.65349e-38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.566808 0.279151 7.41287e-43 0 1.64447e-38 0 1.65143e-38 0 1.64415e-38 0 1.64415e-38 0 5.51439e-41 2.23409e-41 3.18865e-41 1.06639e-41 6.01325e-41 1.58094e-41 5.16575e-41 1.43675e-41 6.929e-41 1.42736e-41 5.42064e-41 9.30322e-42 3.98627e-41 1.93407e-41 0 0 1.24631e-41 1.0741e-41 7.84307e-42 0 0 0 0 0 0 0 0 0 9.82871e-42 2.58526e-41 0 2.3333e-41 1.69053e-41 2.45325e-41 6.75566e-42 0 2.30766e-41 2.4768e-41 1.73705e-41 0 2.23101e-41 2.3951e-41 3.50409e-41 1.66783e-41 4.19311e-41 2.44386e-41 6.89845e-41 1.56917e-41 6.60642e-41 2.85949e-41 6.89355e-41 0 2.91694e-41 3.67603e-41 3.49624e-42 0 1.11039e-41 2.02333e-41 5.78176e-42 0 0 0 0 0 0 0 0 0 1.3622e-41 1.13351e-41 0 2.9545e-41 1.33053e-41 1.23524e-41 6.86636e-43 0 1.38995e-41 1.53568e-41 0 0 2.32854e-41 1.84691e-41 1.69137e-41 0 7.50718e-41 1.9848e-41 5.18242e-41 0 6.20453e-41 2.13488e-41 1.35982e-41 5.26328e-42 1.63461e-41 1.31218e-41 5.19321e-42 0 1.57828e-41 1.4425e-41 6.59031e-42 0 0 0 0 0 0 0 0 0 1.52405e-41 2.38655e-41 0 2.30051e-41 1.66502e-41 2.57671e-41 0 0 1.34258e-41 2.04463e-41 0 0 1.47977e-42 0 1.12104e-43 0 1.64454e-38 0 7.13354e-19 4.558e-41 7.16148e-41 3.11761e-41 1.65392e-38 0 1.65152e-38 0 1.64447e-38 0 1.28751e-41 2.03861e-41 0 0 1.15999e-41 2.261e-41 3.07305e-42 0 1.64514e-38 0 7.13354e-19 4.558e-41 0 0 0 0 1.43941e-41 1.48243e-41 0 3.25914e-41 1.06891e-41 1.07073e-41 0 0 2.33134e-41 1.50794e-41 2.14441e-41 0 6.59269e-41 2.04295e-41 3.6707e-41 0 1.6464e-38 0 1.64617e-38 0 1.64625e-38 0 1.64647e-38 0 1.64566e-38 0 1.64654e-38 0 1.64573e-38 0 1.6458e-38 0 1.64662e-38 0 1.64632e-38 0 1.64669e-38 0 1.64677e-38 0 1.64588e-38 0 1.65414e-38 0 1.64595e-38 0 1.65173e-38 0 1.64603e-38 0 3.02064e-41 3.14367e-41 5.53457e-41 3.06324e-41 4.12276e-41 4.22534e-41 3.12419e-41 3.35611e-41 7.28395e-42 3.73082e-41 1.5354e-41 2.5016e-41 3.33509e-43 2.3291e-41 9.29762e-42 2.77541e-41 0 2.06271e-41 9.50781e-42 2.35432e-41 1.80768e-43 0 7.13359e-19 4.558e-41 7.13359e-19 4.558e-41 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6.27782e-43 0 2.24208e-43 0 7.1338e-19 4.558e-41 7.1338e-19 4.558e-41 7.92574e-42 1.48818e-41 6.30865e-42 2.02067e-42 3.03213e-41 4.80351e-41 2.35628e-41 5.14136e-42 1.64537e-38 0 1.64544e-38 0 1.64399e-38 0 1.64415e-38 0 1.64422e-38 0 1.64551e-38 0 1.64432e-38 0 1.64447e-38 0 1.64514e-38 0 1.64522e-38 0 2.93852e-42 5.5071e-43 0 0 1.3402e-41 2.48744e-41 1.25696e-42 0 1.6516e-38 0 1.65438e-38 0 1.37117e-41 2.08667e-41 -nan -nan 1.04845e-41 1.97821e-41 -nan -nan 1.28387e-41 2.09298e-41 -nan -nan 1.6646e-41 2.56297e-41 3.1305e-42 -nan 3.31687e-41 2.69582e-41 3.02064e-41 -nan 5.53457e-41 2.97398e-41 4.12276e-41 -nan 5.51019e-41 3.06324e-41 1.88839e-41 -nan 3.12419e-41 3.35611e-41 5.63322e-42 -nan 2.16332e-41 2.36932e-41 7.28395e-42 -nan 1.5354e-41 1.89161e-41 3.33509e-43 -nan 9.0664e-42 2.5016e-41 -nan -nan 9.29762e-42 2.56297e-41 -nan -nan 8.21721e-42 2.77541e-41 -nan -nan 9.50781e-42 2.35432e-41 -nan -nan 9.37048e-42 1.01538e-41 4.33842e-42 -nan 9.26819e-42 -nan -nan 3.16231e-41 7.58663e-42 -nan -nan 2.27221e-41 6.11667e-42 -nan -nan 2.05178e-41 9.04959e-42 -nan -nan 2.38795e-41 1.09483e-41 -nan -nan 2.57489e-41 1.42358e-41 -nan 1.95537e-41 3.14367e-41 2.09929e-41 -nan 2.75145e-41 4.22534e-41 1.86653e-41 -nan 1.75078e-41 4.18021e-41 1.13996e-41 -nan 6.82713e-42 3.73082e-41 1.12692e-41 -nan -nan 2.43153e-41 6.03679e-42 -nan -nan 2.15001e-41 2.76196e-42 -nan -nan 2.3291e-41 4.43091e-42 -nan -nan 2.06271e-41 2.75635e-42 -nan -nan 1.857e-41 8.03645e-42 -nan -nan 2.00077e-41 3.44299e-42 -nan -nan 1.04537e-41 7.39886e-43 0 4.48416e-43 0 7.13372e-19 4.558e-41 7.13372e-19 4.558e-41 6.80891e-42 4.22491e-42 2.18042e-41 8.3069e-41 1.52069e-41 7.3358e-42 6.0836e-41 8.90511e-41 1.64559e-38 0 1.64566e-38 0 1.64574e-38 0 1.64581e-38 0 1.64537e-38 0 1.64588e-38 0 1.64447e-38 0 1.65459e-38 0 1.64537e-38 0 1.64559e-38 0 1.64544e-38 0 1.65143e-38 0 1.64399e-38 0 1.65203e-38 0 1.64415e-38 0 1.64422e-38 0 1.65151e-38 0 1.64551e-38 0 1.65158e-38 0 1.64432e-38 0 1.65392e-38 0 1.65466e-38 0 1.65166e-38 0 6.75146e-42 4.80645e-43 4.80645e-43 0 1.72079e-42 1.08362e-41 3.39675e-41 4.86503e-41 1.67679e-41 1.27672e-41 1.23693e-41 5.5043e-42 1.98102e-41 2.76196e-41 3.73446e-42 3.02078e-41 6.08584e-41 7.36817e-41 4.22534e-41 1.08334e-41 6.86636e-44 0 7.13355e-19 4.558e-41 1.64405e-38 0 3.51362e-41 2.30233e-42 0 0 2.10755e-42 0 2.24208e-43 0 7.13354e-19 4.558e-41 7.13354e-19 4.558e-41 0.0214206 0.103446 0.313496 0.222679 0.0148452 0.118543 0.11055 0.041336 1.64399e-38 0 1.64415e-38 0 1.64422e-38 0 1.6443e-38 0 1.64437e-38 0 1.64447e-38 0 1.64514e-38 0 1.64522e-38 0 1.64529e-38 0 0.399802 0.6875 0.188769 0.196015 0.0851715 0.0990175 0.0841302 0.0658294 7.41287e-43 0 1.65152e-38 0 1.65143e-38 0 2.66107e-41 2.1985e-41 -nan 1.34076e-41 2.16599e-41 1.9422e-41 4.72938e-42 2.52038e-41 -nan 5.42667e-41 1.31049e-41 7.12827e-41 -nan 4.26149e-41 5.24982e-41 9.17738e-41 -nan 2.38977e-41 6.70956e-41 4.14826e-41 -nan 2.6591e-41 7.84727e-44 1.83556e-41 8.50588e-42 1.05798e-41 -nan 1.88503e-41 1.99517e-41 -nan -nan 2.1559e-41 3.15993e-41 -nan 1.96224e-41 2.92325e-41 -nan 4.47967e-41 1.20161e-41 4.75825e-41 -nan 6.10728e-41 2.70465e-41 9.58516e-41 -nan 1.94024e-41 8.12753e-41 8.07414e-41 -nan -nan 4.52703e-41 3.87333e-41 -nan -nan 8.79175e-42 3.10416e-41 9.68157e-42 -nan 4.2081e-42 2.33751e-41 -nan 3.00158e-42 -nan 7.76039e-42 5.08671e-43 2.05052e-41 -nan 2.82067e-41 -nan 5.08405e-41 -nan 7.50563e-41 -nan 2.1758e-41 2.15394e-41 9.26511e-41 -nan 7.2279e-42 3.13246e-41 5.23945e-41 -nan 5.38519e-42 -nan 3.10009e-41 -nan 1.2515e-41 -nan 2.51407e-41 1.31876e-41 4.84989e-42 -nan 1.99783e-41 2.42901e-41 -nan 7.09337e-42 3.08286e-44 3.58564e-41 1.73943e-41 2.05556e-41 1.54661e-41 -nan 4.61027e-41 2.58792e-41 3.8603e-41 -nan 1.67077e-41 6.36133e-41 3.06604e-41 -nan 9.66896e-43 3.87165e-41 1.145e-41 6.09004e-42 -nan 2.01507e-41 7.62867e-42 1.30321e-41 -nan 9.91419e-42 7.58523e-42 1.255e-41 -nan 6.60712e-42 1.17611e-41 3.07165e-42 0 1.12104e-43 0 1.64455e-38 0 7.13354e-19 4.558e-41 -nan 1.65012e-07 1.654e-38 0 2.6406e-06 4.24218e-08 4.62428e-44 0 
+Quantized predictions
+{ data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.0922546, last: 0 }
+ { data: 0.102463, last: 0 }
+ { data: 0.0190582, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.113281, last: 0 }
+ { data: 0.198746, last: 0 }
+ { data: 0.187164, last: 0 }
+ { data: 0.0896912, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.020462, last: 0 }
+ { data: 0.165939, last: 0 }
+ { data: 0.278564, last: 0 }
+ { data: 0.327026, last: 0 }
+ { data: 0.255234, last: 0 }
+ { data: 0.105362, last: 0 }
+ { data: 0.0416412, last: 0 }
+ { data: 0.0258331, last: 0 }
+ { data: 0.0245972, last: 0 }
+ { data: 0.0123901, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.00489807, last: 0 }
+ { data: 0.0555115, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.163177, last: 0 }
+ { data: 0.323547, last: 0 }
+ { data: 0.453171, last: 0 }
+ { data: 0.52124, last: 0 }
+ { data: 0.443329, last: 0 }
+ { data: 0.281921, last: 0 }
+ { data: 0.196136, last: 0 }
+ { data: 0.157532, last: 0 }
+ { data: 0.162735, last: 0 }
+ { data: 0.175598, last: 0 }
+ { data: 0.158691, last: 0 }
+ { data: 0.163162, last: 0 }
+ { data: 0.201889, last: 0 }
+ { data: 0.356293, last: 0 }
+ { data: 0.432281, last: 0 }
+ { data: 0.389694, last: 0 }
+ { data: 0.201889, last: 0 }
+ { data: 0.0262756, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.281815, last: 0 }
+ { data: 0.46489, last: 0 }
+ { data: 0.648346, last: 0 }
+ { data: 0.755722, last: 0 }
+ { data: 0.709549, last: 0 }
+ { data: 0.591675, last: 0 }
+ { data: 0.518661, last: 0 }
+ { data: 0.436707, last: 0 }
+ { data: 0.393539, last: 0 }
+ { data: 0.404999, last: 0 }
+ { data: 0.382141, last: 0 }
+ { data: 0.392532, last: 0 }
+ { data: 0.430527, last: 0 }
+ { data: 0.628601, last: 0 }
+ { data: 0.766739, last: 0 }
+ { data: 0.733917, last: 0 }
+ { data: 0.535828, last: 0 }
+ { data: 0.311737, last: 0 }
+ { data: 0.105057, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.282013, last: 0 }
+ { data: 0.460587, last: 0 }
+ { data: 0.623779, last: 0 }
+ { data: 0.726318, last: 0 }
+ { data: 0.699661, last: 0 }
+ { data: 0.632172, last: 0 }
+ { data: 0.572159, last: 0 }
+ { data: 0.475677, last: 0 }
+ { data: 0.433365, last: 0 }
+ { data: 0.454132, last: 0 }
+ { data: 0.443344, last: 0 }
+ { data: 0.451736, last: 0 }
+ { data: 0.571381, last: 0 }
+ { data: 0.821243, last: 0 }
+ { data: 0.979294, last: 0 }
+ { data: 0.894363, last: 0 }
+ { data: 0.667923, last: 0 }
+ { data: 0.427841, last: 0 }
+ { data: 0.17717, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.122696, last: 0 }
+ { data: 0.283096, last: 0 }
+ { data: 0.416214, last: 0 }
+ { data: 0.489319, last: 0 }
+ { data: 0.482727, last: 0 }
+ { data: 0.4319, last: 0 }
+ { data: 0.35611, last: 0 }
+ { data: 0.303757, last: 0 }
+ { data: 0.335571, last: 0 }
+ { data: 0.391296, last: 0 }
+ { data: 0.373108, last: 0 }
+ { data: 0.405334, last: 0 }
+ { data: 0.594025, last: 0 }
+ { data: 0.877655, last: 0 }
+ { data: 0.998947, last: 0 }
+ { data: 0.887344, last: 0 }
+ { data: 0.616409, last: 0 }
+ { data: 0.379913, last: 0 }
+ { data: 0.134628, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.126663, last: 0 }
+ { data: 0.236694, last: 0 }
+ { data: 0.294662, last: 0 }
+ { data: 0.288284, last: 0 }
+ { data: 0.238235, last: 0 }
+ { data: 0.172913, last: 0 }
+ { data: 0.147934, last: 0 }
+ { data: 0.202881, last: 0 }
+ { data: 0.284958, last: 0 }
+ { data: 0.292343, last: 0 }
+ { data: 0.341339, last: 0 }
+ { data: 0.536438, last: 0 }
+ { data: 0.814896, last: 0 }
+ { data: 0.882828, last: 0 }
+ { data: 0.705612, last: 0 }
+ { data: 0.407867, last: 0 }
+ { data: 0.191605, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.0346527, last: 0 }
+ { data: 0.0691681, last: 0 }
+ { data: 0.0434265, last: 0 }
+ { data: 0.0245209, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.0342407, last: 0 }
+ { data: 0.0588684, last: 0 }
+ { data: 0.196487, last: 0 }
+ { data: 0.505157, last: 0 }
+ { data: 0.732162, last: 0 }
+ { data: 0.69725, last: 0 }
+ { data: 0.478531, last: 0 }
+ { data: 0.22464, last: 0 }
+ { data: 0.00325012, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.0295715, last: 0 }
+ { data: 0.228394, last: 0 }
+ { data: 0.501755, last: 0 }
+ { data: 0.660217, last: 0 }
+ { data: 0.576797, last: 0 }
+ { data: 0.360291, last: 0 }
+ { data: 0.10434, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.127899, last: 0 }
+ { data: 0.384583, last: 0 }
+ { data: 0.640289, last: 0 }
+ { data: 0.676605, last: 0 }
+ { data: 0.504929, last: 0 }
+ { data: 0.258057, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.159103, last: 0 }
+ { data: 0.495377, last: 0 }
+ { data: 0.68837, last: 0 }
+ { data: 0.616257, last: 0 }
+ { data: 0.357224, last: 0 }
+ { data: 0.0704346, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.246948, last: 0 }
+ { data: 0.580063, last: 0 }
+ { data: 0.677338, last: 0 }
+ { data: 0.530334, last: 0 }
+ { data: 0.277542, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.337036, last: 0 }
+ { data: 0.65506, last: 0 }
+ { data: 0.736969, last: 0 }
+ { data: 0.549438, last: 0 }
+ { data: 0.209244, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.0536041, last: 0 }
+ { data: 0.45723, last: 0 }
+ { data: 0.727478, last: 0 }
+ { data: 0.702698, last: 0 }
+ { data: 0.409088, last: 0 }
+ { data: 0.00938416, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.263214, last: 0 }
+ { data: 0.610748, last: 0 }
+ { data: 0.795471, last: 0 }
+ { data: 0.695557, last: 0 }
+ { data: 0.334854, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.345032, last: 0 }
+ { data: 0.740692, last: 0 }
+ { data: 0.847198, last: 0 }
+ { data: 0.643875, last: 0 }
+ { data: 0.261688, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.0826111, last: 0 }
+ { data: 0.525726, last: 0 }
+ { data: 0.779266, last: 0 }
+ { data: 0.702026, last: 0 }
+ { data: 0.349365, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.495514, last: 0 }
+ { data: 0.811768, last: 0 }
+ { data: 0.793472, last: 0 }
+ { data: 0.490326, last: 0 }
+ { data: 0.0144043, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.323044, last: 0 }
+ { data: 0.729919, last: 0 }
+ { data: 0.831863, last: 0 }
+ { data: 0.630569, last: 0 }
+ { data: 0.261826, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.212265, last: 0 }
+ { data: 0.560928, last: 0 }
+ { data: 0.769165, last: 0 }
+ { data: 0.662247, last: 0 }
+ { data: 0.405243, last: 0 }
+ { data: 0.0317841, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.148666, last: 0 }
+ { data: 0.458923, last: 0 }
+ { data: 0.657059, last: 0 }
+ { data: 0.633423, last: 0 }
+ { data: 0.36084, last: 0 }
+ { data: 0.100769, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.333145, last: 0 }
+ { data: 0.682159, last: 0 }
+ { data: 0.707474, last: 0 }
+ { data: 0.39212, last: 0 }
+ { data: 0.00828552, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.124771, last: 0 }
+ { data: 0.481995, last: 0 }
+ { data: 0.640442, last: 0 }
+ { data: 0.494965, last: 0 }
+ { data: 0.0960083, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.212891, last: 0 }
+ { data: 0.510254, last: 0 }
+ { data: 0.553635, last: 0 }
+ { data: 0.24971, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.111542, last: 0 }
+ { data: 0.322449, last: 0 }
+ { data: 0.311005, last: 0 }
+ { data: 0.0278473, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0.0245514, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 0 }
+ { data: 0, last: 1 }
+ 
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+INFO: Saved inference results to file: tb_data/csim_results.log
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

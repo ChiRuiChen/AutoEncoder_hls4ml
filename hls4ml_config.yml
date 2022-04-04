@@ -1,0 +1,22 @@
+AcceleratorConfig:
+  Driver: python
+  Interface: axi_stream
+  Precision:
+    Input: float
+    Output: float
+Backend: VivadoAccelerator
+Board: pynq-z2
+ClockPeriod: 5
+HLSConfig:
+  Model:
+    Precision: ap_fixed<32,16>
+    ReuseFactor: 64
+    Strategy: Resource
+IOType: io_stream
+InputData: null
+KerasModel: !keras_model 'denoise_mnist/keras_model.h5'
+OutputDir: denoise_mnist
+OutputPredictions: null
+ProjectName: myproject
+Stamp: 9B85b332
+XilinxPart: xc7z020clg400-1

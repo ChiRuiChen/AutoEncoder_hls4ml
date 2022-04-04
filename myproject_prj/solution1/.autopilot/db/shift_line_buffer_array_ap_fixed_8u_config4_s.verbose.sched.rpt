@@ -1,0 +1,175 @@
+
+
+================================================================
+== Vivado HLS Report for 'shift_line_buffer_array_ap_fixed_8u_config4_s'
+================================================================
+* Date:           Sat Apr  2 23:57:52 2022
+
+* Version:        2019.2.1 (Build 2724168 on Thu Dec 05 05:19:09 MST 2019)
+* Project:        myproject_prj
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  | 5.00 ns | 1.628 ns |   0.62 ns  |
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+----------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+    |   min   |   max   |    min   |    max   | min | max |   Type   |
+    +---------+---------+----------+----------+-----+-----+----------+
+    |        0|        0|   0 ns   |   0 ns   |    1|    1| function |
+    +---------+---------+----------+----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.62>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%kernel_window_31_V_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_31_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 2 'read' 'kernel_window_31_V_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%kernel_window_30_V_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_30_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 3 'read' 'kernel_window_30_V_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%kernel_window_29_V_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_29_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 4 'read' 'kernel_window_29_V_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%kernel_window_28_V_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_28_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 5 'read' 'kernel_window_28_V_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%kernel_window_27_V_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_27_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 6 'read' 'kernel_window_27_V_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%kernel_window_26_V_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_26_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 7 'read' 'kernel_window_26_V_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%kernel_window_25_V_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_25_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 8 'read' 'kernel_window_25_V_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%kernel_window_24_V_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_24_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 9 'read' 'kernel_window_24_V_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%kernel_window_15_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_15_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 10 'read' 'kernel_window_15_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%kernel_window_14_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_14_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 11 'read' 'kernel_window_14_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%kernel_window_13_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_13_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 12 'read' 'kernel_window_13_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%kernel_window_12_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_12_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 13 'read' 'kernel_window_12_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%kernel_window_11_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_11_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 14 'read' 'kernel_window_11_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%kernel_window_10_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_10_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 15 'read' 'kernel_window_10_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%kernel_window_9_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_9_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 16 'read' 'kernel_window_9_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%kernel_window_8_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %kernel_window_8_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 17 'read' 'kernel_window_8_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%in_elem_data_7_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %in_elem_data_7_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 18 'read' 'in_elem_data_7_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%in_elem_data_6_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %in_elem_data_6_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 19 'read' 'in_elem_data_6_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%in_elem_data_5_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %in_elem_data_5_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 20 'read' 'in_elem_data_5_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%in_elem_data_4_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %in_elem_data_4_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 21 'read' 'in_elem_data_4_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%in_elem_data_3_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %in_elem_data_3_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 22 'read' 'in_elem_data_3_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%in_elem_data_2_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %in_elem_data_2_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 23 'read' 'in_elem_data_2_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%in_elem_data_1_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %in_elem_data_1_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 24 'read' 'in_elem_data_1_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%in_elem_data_0_V_read_2 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %in_elem_data_0_V_read)" [firmware/nnet_utils/nnet_conv_stream.h:209]   --->   Operation 25 'read' 'in_elem_data_0_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str23) nounwind" [firmware/nnet_utils/nnet_conv_stream.h:214]   --->   Operation 26 'specpipeline' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (1.62ns)   --->   "%DataOut_V_38 = call i32 @"_ssdm_op_MemShiftRead.[32 x i32]P"(i32* getelementptr inbounds ([32 x i32]* @line_buffer_Array_V_9_0_0, i64 0, i64 31), i32 %in_elem_data_0_V_read_2, i1 true)" [firmware/nnet_utils/nnet_conv_stream.h:231]   --->   Operation 27 'memshiftread' 'DataOut_V_38' <Predicate = true> <Delay = 1.62> <Core = "ShiftReg">   --->   Core 33 'ShiftReg' <Latency = 0> <II = 1> <Delay = 1.62> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 32> <Depth = 32> <ShiftMem>
+ST_1 : Operation 28 [1/1] (1.62ns)   --->   "%DataOut_V_39 = call i32 @"_ssdm_op_MemShiftRead.[32 x i32]P"(i32* getelementptr inbounds ([32 x i32]* @line_buffer_Array_V_9_0_1, i64 0, i64 31), i32 %in_elem_data_1_V_read_2, i1 true)" [firmware/nnet_utils/nnet_conv_stream.h:231]   --->   Operation 28 'memshiftread' 'DataOut_V_39' <Predicate = true> <Delay = 1.62> <Core = "ShiftReg">   --->   Core 33 'ShiftReg' <Latency = 0> <II = 1> <Delay = 1.62> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 32> <Depth = 32> <ShiftMem>
+ST_1 : Operation 29 [1/1] (1.62ns)   --->   "%DataOut_V_40 = call i32 @"_ssdm_op_MemShiftRead.[32 x i32]P"(i32* getelementptr inbounds ([32 x i32]* @line_buffer_Array_V_9_0_2, i64 0, i64 31), i32 %in_elem_data_2_V_read_2, i1 true)" [firmware/nnet_utils/nnet_conv_stream.h:231]   --->   Operation 29 'memshiftread' 'DataOut_V_40' <Predicate = true> <Delay = 1.62> <Core = "ShiftReg">   --->   Core 33 'ShiftReg' <Latency = 0> <II = 1> <Delay = 1.62> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 32> <Depth = 32> <ShiftMem>
+ST_1 : Operation 30 [1/1] (1.62ns)   --->   "%DataOut_V_41 = call i32 @"_ssdm_op_MemShiftRead.[32 x i32]P"(i32* getelementptr inbounds ([32 x i32]* @line_buffer_Array_V_9_0_3, i64 0, i64 31), i32 %in_elem_data_3_V_read_2, i1 true)" [firmware/nnet_utils/nnet_conv_stream.h:231]   --->   Operation 30 'memshiftread' 'DataOut_V_41' <Predicate = true> <Delay = 1.62> <Core = "ShiftReg">   --->   Core 33 'ShiftReg' <Latency = 0> <II = 1> <Delay = 1.62> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 32> <Depth = 32> <ShiftMem>
+ST_1 : Operation 31 [1/1] (1.62ns)   --->   "%DataOut_V_42 = call i32 @"_ssdm_op_MemShiftRead.[32 x i32]P"(i32* getelementptr inbounds ([32 x i32]* @line_buffer_Array_V_9_0_4, i64 0, i64 31), i32 %in_elem_data_4_V_read_2, i1 true)" [firmware/nnet_utils/nnet_conv_stream.h:231]   --->   Operation 31 'memshiftread' 'DataOut_V_42' <Predicate = true> <Delay = 1.62> <Core = "ShiftReg">   --->   Core 33 'ShiftReg' <Latency = 0> <II = 1> <Delay = 1.62> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 32> <Depth = 32> <ShiftMem>
+ST_1 : Operation 32 [1/1] (1.62ns)   --->   "%DataOut_V_43 = call i32 @"_ssdm_op_MemShiftRead.[32 x i32]P"(i32* getelementptr inbounds ([32 x i32]* @line_buffer_Array_V_9_0_5, i64 0, i64 31), i32 %in_elem_data_5_V_read_2, i1 true)" [firmware/nnet_utils/nnet_conv_stream.h:231]   --->   Operation 32 'memshiftread' 'DataOut_V_43' <Predicate = true> <Delay = 1.62> <Core = "ShiftReg">   --->   Core 33 'ShiftReg' <Latency = 0> <II = 1> <Delay = 1.62> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 32> <Depth = 32> <ShiftMem>
+ST_1 : Operation 33 [1/1] (1.62ns)   --->   "%DataOut_V_44 = call i32 @"_ssdm_op_MemShiftRead.[32 x i32]P"(i32* getelementptr inbounds ([32 x i32]* @line_buffer_Array_V_9_0_6, i64 0, i64 31), i32 %in_elem_data_6_V_read_2, i1 true)" [firmware/nnet_utils/nnet_conv_stream.h:231]   --->   Operation 33 'memshiftread' 'DataOut_V_44' <Predicate = true> <Delay = 1.62> <Core = "ShiftReg">   --->   Core 33 'ShiftReg' <Latency = 0> <II = 1> <Delay = 1.62> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 32> <Depth = 32> <ShiftMem>
+ST_1 : Operation 34 [1/1] (1.62ns)   --->   "%DataOut_V = call i32 @"_ssdm_op_MemShiftRead.[32 x i32]P"(i32* getelementptr inbounds ([32 x i32]* @line_buffer_Array_V_9_0_7, i64 0, i64 31), i32 %in_elem_data_7_V_read_2, i1 true)" [firmware/nnet_utils/nnet_conv_stream.h:231]   --->   Operation 34 'memshiftread' 'DataOut_V' <Predicate = true> <Delay = 1.62> <Core = "ShiftReg">   --->   Core 33 'ShiftReg' <Latency = 0> <II = 1> <Delay = 1.62> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 32> <Depth = 32> <ShiftMem>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%mrv_s = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } undef, i32 %kernel_window_8_V_read_2, 0" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 35 'insertvalue' 'mrv_s' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%mrv_72 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_s, i32 %kernel_window_9_V_read_2, 1" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 36 'insertvalue' 'mrv_72' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%mrv_73 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_72, i32 %kernel_window_10_V_read_2, 2" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 37 'insertvalue' 'mrv_73' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%mrv_74 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_73, i32 %kernel_window_11_V_read_2, 3" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 38 'insertvalue' 'mrv_74' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%mrv_75 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_74, i32 %kernel_window_12_V_read_2, 4" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 39 'insertvalue' 'mrv_75' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%mrv_76 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_75, i32 %kernel_window_13_V_read_2, 5" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 40 'insertvalue' 'mrv_76' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%mrv_77 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_76, i32 %kernel_window_14_V_read_2, 6" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 41 'insertvalue' 'mrv_77' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 42 [1/1] (0.00ns)   --->   "%mrv_78 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_77, i32 %kernel_window_15_V_read_2, 7" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 42 'insertvalue' 'mrv_78' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 43 [1/1] (0.00ns)   --->   "%mrv_79 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_78, i32 %kernel_window_24_V_read_1, 8" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 43 'insertvalue' 'mrv_79' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%mrv_80 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_79, i32 %kernel_window_25_V_read_1, 9" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 44 'insertvalue' 'mrv_80' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 45 [1/1] (0.00ns)   --->   "%mrv_81 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_80, i32 %kernel_window_26_V_read_1, 10" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 45 'insertvalue' 'mrv_81' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%mrv_82 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_81, i32 %kernel_window_27_V_read_1, 11" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 46 'insertvalue' 'mrv_82' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 47 [1/1] (0.00ns)   --->   "%mrv_83 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_82, i32 %kernel_window_28_V_read_1, 12" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 47 'insertvalue' 'mrv_83' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 48 [1/1] (0.00ns)   --->   "%mrv_84 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_83, i32 %kernel_window_29_V_read_1, 13" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 48 'insertvalue' 'mrv_84' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%mrv_85 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_84, i32 %kernel_window_30_V_read_1, 14" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 49 'insertvalue' 'mrv_85' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%mrv_86 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_85, i32 %kernel_window_31_V_read_1, 15" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 50 'insertvalue' 'mrv_86' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%mrv_16 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_86, i32 %DataOut_V_38, 16" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 51 'insertvalue' 'mrv_16' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 52 [1/1] (0.00ns)   --->   "%mrv_17 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_16, i32 %DataOut_V_39, 17" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 52 'insertvalue' 'mrv_17' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 53 [1/1] (0.00ns)   --->   "%mrv_18 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_17, i32 %DataOut_V_40, 18" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 53 'insertvalue' 'mrv_18' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 54 [1/1] (0.00ns)   --->   "%mrv_19 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_18, i32 %DataOut_V_41, 19" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 54 'insertvalue' 'mrv_19' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 55 [1/1] (0.00ns)   --->   "%mrv_20 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_19, i32 %DataOut_V_42, 20" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 55 'insertvalue' 'mrv_20' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 56 [1/1] (0.00ns)   --->   "%mrv_21 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_20, i32 %DataOut_V_43, 21" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 56 'insertvalue' 'mrv_21' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 57 [1/1] (0.00ns)   --->   "%mrv_22 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_21, i32 %DataOut_V_44, 22" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 57 'insertvalue' 'mrv_22' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 58 [1/1] (0.00ns)   --->   "%mrv_23 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_22, i32 %DataOut_V, 23" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 58 'insertvalue' 'mrv_23' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 59 [1/1] (0.00ns)   --->   "%mrv_24 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_23, i32 %in_elem_data_0_V_read_2, 24" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 59 'insertvalue' 'mrv_24' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%mrv_25 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_24, i32 %in_elem_data_1_V_read_2, 25" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 60 'insertvalue' 'mrv_25' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 61 [1/1] (0.00ns)   --->   "%mrv_26 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_25, i32 %in_elem_data_2_V_read_2, 26" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 61 'insertvalue' 'mrv_26' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 62 [1/1] (0.00ns)   --->   "%mrv_27 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_26, i32 %in_elem_data_3_V_read_2, 27" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 62 'insertvalue' 'mrv_27' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%mrv_28 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_27, i32 %in_elem_data_4_V_read_2, 28" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 63 'insertvalue' 'mrv_28' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 64 [1/1] (0.00ns)   --->   "%mrv_29 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_28, i32 %in_elem_data_5_V_read_2, 29" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 64 'insertvalue' 'mrv_29' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 65 [1/1] (0.00ns)   --->   "%mrv_30 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_29, i32 %in_elem_data_6_V_read_2, 30" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 65 'insertvalue' 'mrv_30' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 66 [1/1] (0.00ns)   --->   "%mrv_31 = insertvalue { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_30, i32 %in_elem_data_7_V_read_2, 31" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 66 'insertvalue' 'mrv_31' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 67 [1/1] (0.00ns)   --->   "ret { i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 } %mrv_31" [firmware/nnet_utils/nnet_conv_stream.h:236]   --->   Operation 67 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5ns, clock uncertainty: 0.625ns.
+
+ <State 1>: 1.63ns
+The critical path consists of the following:
+	wire read on port 'in_elem_data_7_V_read' (firmware/nnet_utils/nnet_conv_stream.h:209) [41]  (0 ns)
+	'memshiftread' operation ('DataOut.V', firmware/nnet_utils/nnet_conv_stream.h:231) [57]  (1.63 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
