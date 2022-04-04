@@ -1,7 +1,7 @@
 # AutoEncoder_hls4ml
 an autoencoder for mnist denoising using hls4ml to synthesize
 
-
+original author: https://youtu.be/Sm54KXD-L1k
 
 the config used for hls4ml:
 
